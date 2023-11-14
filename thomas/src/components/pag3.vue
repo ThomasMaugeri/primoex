@@ -106,45 +106,25 @@ IS GRACE
                padding: 5px 3px 0 3px;
             }
          }  
-         .textcard2{
-
-         } 
       }
-      .rightcard1{
-         width: 40%;
-      }
-   }  
+            .rightcard1{
+               width: 40%;
+            }
+   }
    .card2{
-      display: flex;
-      flex-direction: row-reverse;
       width: 100%;
+      display: flex;
+      }
       .leftcard2{
          width: 40%;
       }
-         .rightcard2{
-            width: 60%;
-            display: flex;
+      .rightcard2{
+         width:60%;
+         display:flex; 
+         justify-content: flex-end;
+         .numbercard2{
+          width:10%;
+          display: flex;
          }
-            .numbercard2{
-               width: 10%;
-               display: flex;
-               justify-content: center;
-               padding-top: 200px;
-               font-size: 30px;
-
-                   span{
-                     display: flex;
-                     align-items: center;
-                     justify-content: center;
-                     width: 50px;
-                     height: 50px;
-                     border: 2px solid #fbed3f;
-                     border-radius:50%;
-                     color: #fbed3f;
-              }
-              
-       } 
-
-
-   }
+      }
     </style>
