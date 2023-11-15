@@ -25,6 +25,8 @@
         width: 50%;
         background-color:yellow;
         display: flex;
+        justify-content: center;
+        padding: 100px 0;
         p{
             font-size: 30px;
             color: grey;
@@ -36,6 +38,7 @@
         width: 50%;
         background-color: aquamarine;
         display: flex;
+        padding: 100px 0;
         p{
             font-size: 30px;
             color: white;
@@ -44,6 +47,20 @@
             padding-bottom: 30px;
         }
     }
+}
+
+
+@media (max-width: 770px) {
+    .card{
+        flex-direction: column;
+        .left{
+            width: 100%;
+        }
+        .right{
+            width: 100%;
+        }
+    }
+
 }
 
 </style>
